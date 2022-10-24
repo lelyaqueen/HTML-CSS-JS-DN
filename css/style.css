@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: local('../fonts/Gilroy Bold'), local('../fonts/Gilroy-Bold'),
+        url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: local('../fonts/Gilroy Medium'), local('../fonts/Gilroy-Medium'),
+        url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff'),
+        url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    color: #000;
+    font-family: 'Gilroy','Gilroy-Bold.eot';
+    font-size: 18px;
+
+}
+
+ul li{
+    display: block;
+}
+
+.title-1-lang{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+
+.container{
+    max-width: 1004px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.header{
+    padding-top: 33px;
+}
+
+
+.btn{
+    display: inline-block;
+    background-color: #000000;
+    padding: 9px 28px;
+    border-radius: 50px;
+
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover, .btn.focus{
+    background-color: #242423;
+}
+
+.btn:active{
+    background-color: #000000;
+    position: relative;
+    top: 1px;
+}
+
+/*header*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu{
+    display: flex;
+    column-gap: 150px;
+    
+    font-weight: 500;
+}
+
+.nav-button{
+    display: none;
+}
+
+.nav-link{
+    color: #828282;
+    text-decoration: none;
+
+}
+
+.nav-link.active{
+    color: #000;
+}
+
+.nav-button{
+
+    display: none;
+
+
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    
+}
+
+
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    align-items: center;
+}
+.header-content p{
+    width: 156px;
+
+}
+
+.btn-tumb a{
+    
+    border: none;
+    text-decoration: none;
+    outline: none;
+    color: #828282;
+    transform: rotate(-90deg);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+
+
+.header-nav{
+    margin-bottom: 72px;
+}
+
+
+
+/*menu 2*/
+
+menu{
+    display: flex;
+    column-gap: 150px;
+    
+    font-weight: 500;
+}
+
+/*about me*/
+
+.about{
+    
+    background-color: #F6F6F6;
+    padding: 110px 0;
+    
+}
+
+.about-title{
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+
+.about-content-lang{
+
+    font-family: 'Gilroy','Gilroy-Medium.eot';
+    max-width: 485px;
+    margin: auto;
+    text-align: center;
+
+    line-height: 1.5;
+ }
+
+}
+
+/*skills*/
+.skills{
+
+     
+}
+.skills-top{
+    text-align: center;
+    margin-top: 90px; 
+    margin-bottom: 60px;
+}
+
+.skills-title{
+    margin-bottom: 69px;
+}
+                
+.skills-text-lang{
+      margin-bottom: 20px;
+      font-family: 'Gilroy','Gilroy-Medium.eot';
+
+
+
+}
+
+.icon{
+    margin-bottom: 146px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    row-gap: 82px;
+
+    font-size: 14px;
+    font-weight: 100;
+    color: ##828282;
+
+    
+}
+
+.icon-skill-lang p{
+    text-align: center;
+}
+
+
+/*portfolio*/
+
+.portfolio{
+    background-color: #F6F6F6;
+    padding: 90px 0;
+}
+
+.portfolio-title{
+    text-align: center;
+    margin-bottom: 90px;
+    
+}
+
+.project{
+    text-align: center;
+}
+
+.project + .project{
+    margin-top: 99px;
+}
+
+.project-title-lang{
+    font-family: 'Gilroy','Gilroy-Medium.eot';
+}
+
+.project-title-lang a{
+    
+    color: #000; 
+    font-weight: normal;
+}
+
+.project-img{
+    margin-bottom: 44px;
+}
+
+/*footer*/
+
+
+.contact{
+    padding: 72px 0;
+    text-align: center;
+  
+    
+}
+
+.contact-title{
+    margin-bottom: 20px;
+}
+
+
+.contact-content-lang{
+    margin-bottom: 30px;
+    font-family: 'Gilroy','Gilroy-Medium.eot';
+}
+
+.contact-content-lang p+p{
+    margin-top: 1em;
+}
+
+.contact-btn-lang{
+    margin-bottom: 85px;
+}
+
+
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.contact-footer{
+    font-size: 14px;
+    color: #828282;
+}
+
+.mobilepic{
+    position: static;
+    opacity: 1;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
